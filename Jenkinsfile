@@ -12,18 +12,6 @@ pipeline {
                 sh 'mvn clean compile'
             }
         }
-       // stage('Test') {
-         //   steps {
-           //     echo 'Testing'
-             //   sh 'mvn test'
-         //   }
-     //   }
-        // stage('JaCoCo') {
-          // steps {
-              //  echo 'Code Coverage'
-              //  jacoco()
-            // }
-        // }
         stage('Sonar') {
             steps {
                 echo 'Sonar Scanner'
