@@ -9,13 +9,13 @@ pipeline {
         stage('Build') {
             steps {
                 echo 'Clean Build'
-                bat 'mvn clean compile'
+                sh 'mvn clean compile'
             }
         }
         stage('Test') {
             steps {
                 echo 'Testing'
-                bat 'mvn test'
+                sh 'mvn test'
             }
         }
         stage('JaCoCo') {
@@ -42,7 +42,8 @@ pipeline {
         stage('Deploy') {
             steps {
                 echo '## TODO DEPLOYMENT ##'
-            }
+            	sh 'mvn deploy'
+		}
         }
     }
     
