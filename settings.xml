@@ -221,7 +221,7 @@ under the License.
 <activeByDefault>true</activeByDefault>
 </activation>
 <properties>
-<sonar.host.url>http://34.224.99.29:9000</sonar.host.url>
+<sonar.host.url>http://18.206.56.150:9000</sonar.host.url>
 </properties>
 </profile>
 

@@ -75,12 +75,12 @@
   <repository>
      <id>deployment</id>  
      <name>Internal Releases</name>   
-     <url>http://107.22.121.218:8081/repository/newrepo/</url> 
+     <url>http://52.91.138.127:8081/repository/newrepo/</url> 
  </repository>  
  <snapshotRepository>  
    <id>deployment</id>  
    <name>Internal Releases</name> 
-   <url>http://107.22.121.218:8081/repository/newrepo/</url> 
+   <url>http://52.91.138.127:8081/repository/newrepo/</url> 
  </snapshotRepository>
  </distributionManagement> 
 </project>
